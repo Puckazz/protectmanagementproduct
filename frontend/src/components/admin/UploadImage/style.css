@@ -1,0 +1,45 @@
+.upload-block{
+    position: relative;
+    
+}
+.upload-icon{
+    position: absolute;
+    top: 13px;
+    left: 5px;
+}
+.image-label{
+    
+    cursor: pointer;
+    padding: 10px 15px 10px 30px;
+    background-color: #2e65da;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 7px;
+}
+.input-file{
+    display: none;
+}
+.input-image{
+    margin-bottom: 10px;
+    
+}
+
+.preview-image{
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 45px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.image-block{
+    position: relative;
+}
+.icon-close{
+    font-size: 30px;
+    position: absolute;
+    color: #2e65da;
+    top: -15px;
+    left: 190px;
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+.search-bar input {
+  width: 400px;
+  height: 46px;
+  padding: 8px;
+  border: 1px solid #b4b4b8;
+  border-radius: 0;
+  margin-right: 30px;
+}
+
+.user-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid lightblue;
+}
+.order-list {
+  width: 100%;
+  padding: 50px;
+}
+.order-table {
+  width: 100%;
+  border-radius: 10px;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.order-table thead {
+  background-color: #1e233c;
+  color: #5668e0;
+  height: 60px;
+}
+.order-table thead tr {
+  text-align: left;
+}
+.order-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.order-table th,
+.order-table td {
+    padding: 12px 15px;
+}
+/* Filter Section */
+.filter-section {
+  display: flex;
+  width: 1036px;
+  height: 86px;
+  margin-left: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 10px 0;
+  background-color: white;
+}
+.filter {
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+  gap: 20px;
+  flex: 1 0 0;
+}
+.filter-section span {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.sort-button {
+  padding: 8px 16px;
+  background-color: #f2efe5;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  border-radius: 0;
+  margin-right: 2rem;
+}
+
+.status.active {
+  background-color: #72bf78;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.detail {
+  text-decoration: none;
+  color: #0e6af4;
+}
+/* Pagination Section */
+.bottom-bar-oder {
+  width: 1036px;
+  margin-left: 2.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons-oder button {
+  padding: 8px 12px;
+  background: white;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0;
+  font-weight: bold;
+  margin-left: 0;
+}
+.pagination-buttons-oder button:focus {
+  background-color: #007bff;
+  color: white;
+}
+

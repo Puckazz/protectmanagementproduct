@@ -1,0 +1,108 @@
+.search-bar input {
+  width: 400px;
+  height: 46px;
+  padding: 8px;
+  border: 1px solid #b4b4b8;
+  border-radius: 0;
+  margin-right: 30px;
+}
+
+.user-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid lightblue;
+}
+
+.user-list {
+  width: 100%;
+  padding: 50px;
+}
+.user-table {
+  width: 100%;
+  border-radius: 10px;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.user-table thead {
+  background-color: #1e233c;
+  color: #5668e0;
+  height: 60px;
+}
+.user-table thead tr {
+  text-align: left;
+}
+.user-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.user-table tbody tr:hover {
+  background-color: #F2EFE5;
+}
+.user-table th,
+.user-table td {
+  padding: 12px 15px;
+}
+/* add account */
+.add-account {
+  display: flex;
+  justify-content: flex-end;
+  width: 1036px;
+  height: 86px;
+  margin-left: 2.5rem;
+  align-items: center;
+  gap: 40px;
+  padding: 10px 0;
+  background-color: white;
+}
+.add-button {
+  padding: 10px 20px;
+  background-color: #72bf78;
+  color: white;
+  border: none;
+  border-radius: 0;
+  font-weight: bold;
+  margin-right: 2rem;
+  transition: 0.2s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-button:hover {
+  background-color: #007bff;
+  color: black;
+}
+
+
+.edit {
+  color: black;
+  margin-left: 1rem;
+}
+
+/* Pagination Section */
+.bottom-bar-account {
+  width: 1036px;
+  margin-left: 2.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons-account button {
+  padding: 8px 12px;
+  background: white;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+.pagination-buttons-account button:focus {
+  background-color: #007bff;
+  color: white;
+}
+.delete-btn{
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+}

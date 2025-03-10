@@ -1,0 +1,45 @@
+.edit-product{
+  
+    padding: 50px;
+    background:#fff;
+  
+}
+.edit-product__table{
+    margin: 0 auto;
+    text-align: left;
+    width: 60%;
+}
+
+.edit-product__table__field{
+    height: 20px;
+}
+.edit-product__table__field__label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.edit-product__table__field td{
+    padding: 10px;
+}
+/* THẻ input(type=text) */
+.edit-product__table__field input[type=text]{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+.edit-product__table__field__radio{
+    margin-right: 10px;
+}
+.form-edit__submit{
+    font-size: 18px;
+    padding: 10px 30px;
+    background: red;
+    border: none;
+    border-radius: 7px;
+    margin-left: 21.1%;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.text-align--right{
+    text-align: right;
+}
